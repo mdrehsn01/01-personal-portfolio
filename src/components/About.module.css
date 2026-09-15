@@ -1,0 +1,45 @@
+.developerCard {
+  background-color: rgba(47, 47, 92, 0.763);
+  color: #f8fafc;
+  border: 1px solid rgba(92, 43, 176, 0.662);
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(44, 43, 77, 0.489);
+  transition: all 0.3s ease;
+}
+
+.developerCard:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 30px rgba(124, 58, 237, 0.35);
+}
+
+.codeIcon {
+  font-size: 60px;
+  font-weight: 700;
+  color: #7c3aed;
+  text-shadow: 0 0 20px rgba(82, 18, 192, 0.7);
+}
+
+.developerCard p {
+  margin-bottom: 0;
+  color: #a1a1aa;
+}
+
+
+.aboutSection{
+  background-color:#5a5a86;
+  color: #f8fafc;
+}
+
+.aboutTitle {
+  color: #f8fafc;
+  font-weight: 700;
+  background-color: #825fbd;
+}
+
+.aboutSection p {
+  color: #dbdbe5;
+}
+
+.aboutSection svg {
+  color: #06b6d4;
+}

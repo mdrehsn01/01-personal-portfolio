@@ -1,0 +1,83 @@
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.techBadge {
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: rgba(124, 58, 237, 0.2);
+  color: #d5d5e2;
+  border: 1px solid rgba(124, 58, 237, 0.4);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.card {
+  padding: 20px;
+  margin-top: 20px ;
+  background-color: rgba(47, 47, 92, 0.763);
+  color: #f8fafc;
+  border: 1px solid rgba(92, 43, 176, 0.662);
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(44, 43, 77, 0.489);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(124, 58, 237, 0.35);
+}
+
+.card h3 {
+  color: white;
+  font-weight: 700;
+}
+
+.card p {
+  color: #a1a1aa;
+}
+
+.projectsSection {
+  background-color: #5a5a86;
+  color: #f8fafc;
+  padding-top: 50px;
+}
+
+.projectsTitle {
+  color: #f8fafc;
+  background-color: #825fbd;
+  font-weight: 700;
+}
+
+.projectImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.projectLinks {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.projectLinks a {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #f8fafc;
+  background: linear-gradient(to right, #a442ce, #4e3fb0);
+  border: 1px solid rgba(124, 58, 237, 0.5);
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.projectLinks a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.6);
+}

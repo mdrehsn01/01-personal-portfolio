@@ -1,0 +1,88 @@
+.contactSection {
+  background-color: #5a5a86;
+  color: #f8fafc;
+}
+
+.contactCard {
+  background-color: rgba(47, 47, 92, 0.763);
+  color: #f8fafc;
+  border: 1px solid rgba(92, 43, 176, 0.662);
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(44, 43, 77, 0.489);
+  transition: all 0.3s ease;
+}
+
+.contactCard:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 30px rgba(43, 43, 82, 0.544);
+}
+
+.formLabel {
+  color: #d5d5e2 !important;
+  opacity: 1 !important;
+}
+
+.formInput:focus + .formLabel {
+  color: #06b6d4 !important;
+}
+
+.contactCard h3 {
+  color: #f8fafc;
+  font-weight: 700;
+}
+
+.contactCard h4 {
+  color: #06b6d4;
+  font-weight: 600;
+}
+
+.contactCard p {
+  color: #d5d5e2;
+}
+
+.contactCard .form-control {
+  background-color: rgba(34, 34, 52, 0.8) !important;
+  color: #f8fafc !important;
+  border: 1px solid rgba(124, 58, 237, 0.4);
+}
+
+.contactCard .form-floating > .form-control::placeholder {
+  color: transparent !important;
+  opacity: 0 !important;
+}
+
+.contactCard .form-control:focus {
+  background-color: rgba(34, 34, 52, 0.9) !important;
+  color: #f8fafc !important;
+  border-color: #7c3aed;
+  box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
+}
+
+.formInput {
+  background-color: rgba(37, 37, 59, 0.896) !important;
+  color: #f8fafc !important;
+  border: 1px solid rgba(124, 58, 237, 0.4) !important;
+}
+
+.formInput:focus {
+  background-color: rgba(34, 34, 52, 0.9) !important;
+  color: #f8fafc !important;
+  border-color: #7c3aed !important;
+  box-shadow: 0 0 15px rgba(124, 58, 237, 0.3) !important;
+}
+
+.sendButton {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(to right, #a442ce, #4e3fb0);
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.sendButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.6);
+}

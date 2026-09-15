@@ -1,0 +1,32 @@
+.card {
+  transition: all 0.3s ease;
+  padding: 10px;
+  background-color: rgba(47, 47, 92, 0.763);
+  color: #f8fafc;
+  border: 1px solid rgba(92, 43, 176, 0.662);
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(44, 43, 77, 0.489);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(124, 58, 237, 0.35);
+}
+
+.skillsTitle{
+    background-color: #825fbd; 
+}
+
+.skillsSection {
+  background-color: #5a5a86;
+  color: #f8fafc;
+}
+
+.skillCategory {
+  color: #06b6d4;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}

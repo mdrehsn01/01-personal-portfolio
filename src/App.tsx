@@ -1,15 +1,26 @@
+import "./App.css";
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+
 function App() {
   return (
-    <div className="container mt-5">
-      <h1 className="text-primary">
-        Personal Portfolio
-      </h1>
-
-      <button className="btn btn-dark">
-        Test Button
-      </button>
+    <div>
+      <Navbar 
+      name="Mohammad Rehan"
+      />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact/>
+      <Footer/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

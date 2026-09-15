@@ -1,0 +1,29 @@
+.navbar{
+    color: #f8fafc;
+    background-color: rgb(51, 51, 90);
+}
+
+.navbar .brand {
+  font-size: 30px;
+  font-weight: 700;
+   color: #f8fafc;
+  transition: all 0.3s ease;
+}
+
+.navbar .brand:hover {
+  transform: scale(1.05);
+   color: #7e41e8;
+  
+}
+
+.navbar .navLink{
+    transition: all 0.3s ease;
+    color: #f8fafc;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.navbar .navLink:hover{
+    transform: translateY(-2px);
+     color: #7e41e8;
+}
