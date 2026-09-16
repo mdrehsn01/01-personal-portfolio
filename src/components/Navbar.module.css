@@ -27,3 +27,11 @@
     transform: translateY(-2px);
      color: #7e41e8;
 }
+
+:global(.navbar-toggler) {
+  border: 2px solid #ffffff !important;
+}
+
+:global(.navbar-toggler-icon) {
+  filter: brightness(0) invert(1) !important;
+}
