@@ -42,7 +42,7 @@ function Hero() {
             <div className={styles.socialLinks}>
               <a
                 href="https://github.com/mdrehsn01"
-                className={styles.socialLink}
+                className={`${styles.socialLink} ${styles.githubLink}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -51,7 +51,7 @@ function Hero() {
               </a>
               <a
                 href="https://www.linkedin.com/in/mohammadrehan001"
-                className={styles.socialLink}
+                className={`${styles.socialLink} ${styles.linkedinLink}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
