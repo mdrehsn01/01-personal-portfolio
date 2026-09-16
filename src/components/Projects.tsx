@@ -18,7 +18,7 @@ const projects: Project[] = [
       "A modern and responsive personal portfolio website showcasing my skills, projects, and frontend development journey.",
     technologies: ["React", "TypeScript", "Bootstrap", "CSS"],
     image: portfolioImage,
-    liveUrl: "",
+    liveUrl: "https://01-personal-portfolio.vercel.app",
     githubUrl: "https://github.com/mdrehsn01/01-personal-portfolio",
   },
 ];
